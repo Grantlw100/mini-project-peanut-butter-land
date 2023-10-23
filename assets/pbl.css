@@ -1,3 +1,24 @@
+/*
+let it be known that this is very obviously a gag and its intended purpose is 
+to showcase learned skills in a comedic way so the person reviewing this HTML finds 
+the reading enjoyable and offers them a break from the mundane. I do not have any personal grudges 
+for people with peanut allergies (must use select element to udnerstand what im 
+referring too) rather i pity them for peanut butter is delicious. may the scary
+peanut man bless your children with non-peanut related allergies. Hopefully they
+can be allergic to something like ans like i am. no one likes ants anyways
+Except for people that REALLy like bugs. In that case hopefully your kids are blessed
+with being good at math.
+*/
+/*
+unfortunately not designed as the most accessible HTML
+If accessibility is desired highlight the text within the brackets,
+press ctrl+d like ten times and enter the attribute for background color
+followed by your desired color to change the background images in every 
+aspect of the HTML to something boring like Charmillion LOL. you will have 
+to hunt down any bugs.Good luck Space Marine. Ripley would be proud of you.
+[background-image:]
+*/
+
 * {
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -25,11 +46,18 @@
     width:80%;
     height: auto;
 }
+
+.highlight-link-text{
+    color:darkblue
+}
 /* I understand the assignment requests inline elements 
 for the header tag, the elements are seperated by paragraph 
 elements for universal functionality regardless of screen size.
 This design ensures that words do not cross over sections the border
-of the container */
+of the container
+look towards the bottom of this css page for a HOWTO: to implement these
+changes if so desired
+ */
 
 #header-2 {
     position:static;
@@ -141,10 +169,97 @@ border-bottom: 5px black solid;
 }
 
 /* questions for instructors and notes*/
-/* changing the display from inline to block
+/* 
+changing the display from inline to block
  or vice versa or changing the position from 
  fixed to another psoition attribute destroys
-  all the css for that element. WHY?????*/
-/* if desired to fulfill the readme exaactly as
+  all the css for that element. WHY?????
+  */
+/* 
+if desired to fulfill the readme exaactly as
  it is worded, the form element and the header 
- element can be swapped using the codes provided below*/
+ element can be swapped using the codes provided below
+ */
+
+ /*
+ DO NOT ALTER CODES BETWEEN LINES 29 AND 45. IT IS 
+ ESTABLISHED TO CREATE A MARGIN SO THE FIXED ELEMENT 
+ WILL NOT OVERLAP ANY OTHER SECTION!!!! 
+ */
+
+
+ /*
+  if done correctly this code should start at line 101 replaces the code
+that originally lies between lines 101 and 130, this block of code has 2 
+additional class attributes in the first <div> tag that are not part of the 
+original code block. this is for functionality and readability
+
+this codes origin starts at line 17 and ends at line 27
+*/
+
+/* 
+<div class="p waiting">
+    <strong>If they aint in peanut butter land, they must be Jelly</strong>
+    <br>
+    <a class="highlight-link-text">Call us about Peanut Butter:</a>
+    <br>
+        <a class="highlight-link-text">(910) 916-4339!</a>
+    <br>
+    <a class="highlight-link-text" href="mailto:Peanutbutterland2@outlook.com">Send us videos of Peanut Butter!!</a>
+    <br>
+   <a href="https://www.google.com/maps/place/Chernobyl+Power+Plant/@51.4045032,30.0542331,17z/data=!3m1!4b1!4m6!3m5!1s0x472a7d747253253b:0xad8ee6ec4d52864c!8m2!3d51.4045032!4d30.0542331!16s%2Fg%2F11jkcgxryk?entry=ttu"><strong class="highlight-link-text">Come eat Peanut Butter with us!!!</strong></a>
+</div>
+*/
+
+
+
+/*
+If done correctly this code should go start at line 17 and replaces the code
+that originally lies between lines 17 and 27 AND MUST ALSO REPLACE THE CODE BETWEEN
+ LINES 32 AND 45. This will act to support the fixed element and maintain the structure 
+ of the html so the user doesnt have overlapping elements. I found the easiest way to 
+ achieve this was by using the same exact block of code to supplement the space 
+ rather than waste hours trying to math and muscle my way through the problem
+ THIS IS KEY TO THE WEBSITES FORMAT - may need some additional tinkering
+ im not testing it 
+ good luck you brave soul
+ this codes origin falls between lines 101 and 130
+ no changes should have to be made to reimplement it into the desired locations whether 
+ in the origin or in the header - im sleepy though so make sure i am right
+ */
+
+
+/*
+ <div id="call-us">
+            <div> Peanut allergy? <strong>Let us know in advance.</strong>
+                <form class="Font">
+                    <p>
+                        <label for="firstname">First name</label>
+                        <input type="text" name="firstname" id="firstname" 
+                        placeholder="John"/>
+                        </p>
+                        <p>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Doe"/>
+                    </p>
+                    <p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="icanteatpeanuts@email.com"/>
+                    </p>
+                        <label for="Hazmat">Hazmat suit size</label>
+                        <select name="Hazmatsuitsize" id="Hazmatsuitsize" >
+                            <option value="x-small">X-Small</option>
+                            <option value="small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                            <option value="X-Large">X-Large</option>
+                            <option value="wedontlikeyou">We strongly dislike you</option>
+                    </select>
+                    <br>
+                   <p><button type="submit">Peanut🥜</button></p>
+                </form>
+            </div>
+*/
+
+
