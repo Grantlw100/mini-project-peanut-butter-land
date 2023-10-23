@@ -1,6 +1,8 @@
 * {
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: bolder;
 }
 
 
@@ -54,7 +56,7 @@ of the container */
     margin-left:10%;
     margin-right:10%;
     width:auto;
-    background-color: whitesmoke;
+    background-image: url(peanut-bg-2.jpg);
 }
 
 #margin{
@@ -128,7 +130,7 @@ border-bottom: 5px black solid;
 #call-us {
     border: 10px solid black;
     color:black;
-    background-image: url(./peanutbutterbg4.jpg);
+    background-image: url(./peanutbutterbg7.jpg);
     font-size: 20px;
     text-align: center;
     display: block;
@@ -137,3 +139,12 @@ border-bottom: 5px black solid;
     width:auto;
     height:auto
 }
+
+/* questions for instructors and notes*/
+/* changing the display from inline to block
+ or vice versa or changing the position from 
+ fixed to another psoition attribute destroys
+  all the css for that element. WHY?????*/
+/* if desired to fulfill the readme exaactly as
+ it is worded, the form element and the header 
+ element can be swapped using the codes provided below*/
