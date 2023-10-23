@@ -1,0 +1,139 @@
+* {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif';
+}
+
+
+
+.body {
+    background-image:url(./peanutbutterbg6.jpg);
+    color: black
+}
+
+#header {
+    position:fixed;
+    top: 2px;
+    border: 5px inset black;
+    color:black;
+    background-image: url(./peanutbutterbg3.jpg);
+    text-align: center;
+    display: inline;
+    margin-left:8%;
+    margin-right: 11%;
+    width:80%;
+    height: auto;
+}
+/* I understand the assignment requests inline elements 
+for the header tag, the elements are seperated by paragraph 
+elements for universal functionality regardless of screen size.
+This design ensures that words do not cross over sections the border
+of the container */
+
+#header-2 {
+    position:static;
+    top: 2px;
+    border: 10px solid black;
+    color:black;
+    background-image: url(./peanutbutterbg3.jpg);
+    text-align: center;
+    display: inline;
+    margin-left:8%;
+    margin-right: 11%;
+    width:80%;
+    height: auto;
+    visibility: hidden;
+}
+
+.Font{
+    font-weight: bold;
+}
+
+.p {
+    font-size: 20px;
+    border: 5px ridge black;
+    margin-left:10%;
+    margin-right:10%;
+    width:auto;
+    background-color: whitesmoke;
+}
+
+#margin{
+    margin-bottom: 5%;
+}
+
+#uno-1 {
+    display: inline;
+}
+
+
+#section-1 { 
+    text-align: center;
+}
+
+
+.peanuty-goodness {
+    text-align: center;
+    font-size:30px ;
+    font-weight: bold;
+    color:black;
+    background-image:url(./peanuts.jpg) ;
+    border: 10px double gold;
+    margin-left:10%;
+    margin-right:10%;
+    width:auto;
+    height:auto
+}
+
+
+.waiting  {
+    text-align:center
+}
+
+.list-images {
+max-width: 100%;
+max-height: 100% ;
+border-top: 5px darkkhaki dashed;
+border-bottom: 5px black solid;
+}
+
+
+#image-1 {
+    margin-left:10%;
+    margin-right:10%;
+    width: 80%;
+    height: auto;
+    border: 10px gold double
+}
+
+
+#we-have {
+    width:auto;
+    height: auto;
+}
+
+#liability-waiver {
+    text-align: center;
+    font-size: 5px;
+    
+}
+
+#id-2 {
+    margin-bottom:
+}
+
+#base-margin {
+    padding:100px
+}
+
+#call-us {
+    border: 10px solid black;
+    color:black;
+    background-image: url(./peanutbutterbg4.jpg);
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:auto;
+    height:auto
+}
